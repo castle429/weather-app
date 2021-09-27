@@ -1,0 +1,59 @@
+body {
+    position: relative;
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#info-container {
+    background: lightyellow;
+    width: 70%;
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    margin-right: -50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    
+    border: 2px solid yellow;
+
+    border-radius: 25px;
+}
+
+h1, h3 {
+    display: block;
+    margin-bottom: 3%;
+}
+
+
+
+button {
+    border: 2px solid yellow;
+    background-color: white;
+    border-radius: 25px;
+
+    width: 7em;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+button:active {
+    background-color: gray;
+}
+
+#search-container {
+    margin-top: 2em;
+    display: block;
+    text-align: center;
+}
+
+#city-search {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+

@@ -3,9 +3,26 @@
     <head>
         <title>Weather App</title>
         <meta charset="utf-8">
-        <link type="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script type="text/js" src="script.js"></script>
+        <div id="search-container">
+            <form id="city-search">
+                <input type="text" placeholder="Enter a city" id="city-name">
+                <input type="submit" value="Search" id="submit">
+            </form>
+        </div>
+
+        <div id="info-container">
+            <h1 id="city-name"></h1>
+            <h1 id="country-name"></h1>
+            <h1 id="temp"></h1>
+            Feels-Like: <h3 id="feels-like"></h3>
+            Description: <h3 id="weather-description"></h3>
+            Humidity: <h3 id="humidity"></h3>
+            <button id="f-toggle">°F</button>
+            <button id="c-toggle">°C</button>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
